@@ -1,0 +1,8 @@
+## 🚀 What does this PR do?
+This PR introduces **Nova**, an intelligent RAG-based developer assistant designed for Problem Statement 2B. It helps first-time open-source contributors easily onboard and understand setup instructions without hallucinations.
+
+## ✨ Key Features Added:
+- **Multi-Document Ingestion:** Supports concurrent uploading of multiple `.md`, `.txt`, and `.pdf` files.
+- **Strict Hallucination Guardrails:** Enforced system prompts ensuring the LLM replies *only* using retrieved document context.
+- **Onboarding Checklist (Bonus):** Instant automated roadmap generation for newcomers.
+- **Modern UI/UX:** Built with Gradio using a clean monochrome theme.
